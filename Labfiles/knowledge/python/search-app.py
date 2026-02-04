@@ -44,7 +44,7 @@ def main():
             # Parse the results
             print(f"\nSearch returned {found_documents.get_count()} documents:")
             for document in found_documents:
-                print(f"\nDocument: {document["metadata_storage_name"]}")
+                print(f"\nDocument: {document['metadata_storage_name']}")
                 print(" - Locations:")
                 for location in document["locations"]:
                     print(f"   - {location}")
